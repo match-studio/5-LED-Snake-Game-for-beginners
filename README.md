@@ -19,14 +19,14 @@ vid
 ## shematic
 ![she](images/P_20260221_014642.jpg)
 > [!NOTE]
-> if you using arduino or other board works with 5V pins please change 3V3 to 5v
+> if you using arduino or other board works with 5V pins please change 3V3 to 5V
 
 > [!WARNING]
 > im using low led power if you using high power please connect led pins with good resistors
 
 > [!TIP]
 > if you using esp32 or other board support PULL-UP built-in pin you can remove
-> 1k Ohm resistor and replace `INPUT` with `INPUT_PULLUP`
+> 10k Ohm resistor and replace `INPUT` with `INPUT_PULLUP`
 
 > [!NOTE]
 > if you want to use other pins you can change in code `ledPind = [...]` `rightPin = ...` and `leftPin = ...` with your pins
