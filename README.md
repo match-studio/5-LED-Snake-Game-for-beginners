@@ -10,6 +10,12 @@ vid
 ## requeded components
 | name | count | description|
 | ----- | ----- | --------- |
+| LED | 5 | --- |
+| 10K Ohm resistor | 2 | you can use `INPUT_PULLUP` in code |
+| jumper wires | 9+ | --- |
+| breadboard | 2-3 | you can use mini half or full breadboard |
+| buttons | 2 | for left and right |
+
 ## shematic
 ![she](images/P_20260221_014642.jpg)
 > [!NOTE]
