@@ -18,3 +18,6 @@ vid
 > [!TIP]
 > if you using esp32 or other board support PULL-UP built-in pin you can remove
 > 1k Ohm resistor and replace `INPUT` with `INPUT_PULLUP`
+
+> [!NOTE]
+> if you want to use other pins you can change in code `ledPind = [...]` `rightPin = ...` and `leftPin = ...` with your pins
