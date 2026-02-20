@@ -11,6 +11,7 @@ A simple snake game that can be made with minimal equipment. It's fun and cool! 
 ## Video of working
 *[Video coming soon...]*
 
+## Connection
 | from | to | with |
 |------|----|------|
 | GND | LED GND pins | none |
@@ -41,3 +42,13 @@ A simple snake game that can be made with minimal equipment. It's fun and cool! 
 > `ledPins[5] = {13, 12, 14, 27, 26};`  
 > `rightPin = 4;`  
 > `leftPin = 16;`
+
+## main code
+```cpp
+```
+
+## donate
+
+
+
+my bitcoin public key: `0367fe4e52cec4fef59687718bbae91b4b4a23ac4871a362f1ed2dffd288890cad`
