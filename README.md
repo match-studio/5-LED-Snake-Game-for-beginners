@@ -6,4 +6,4 @@ img
 ## video of working
 vid
 ## shematic
-sht
+!(she)[images/P_20260221_014642.jpg]
