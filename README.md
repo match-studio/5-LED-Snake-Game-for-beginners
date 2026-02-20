@@ -11,15 +11,18 @@ A simple snake game that can be made with minimal equipment. It's fun and cool! 
 ## Video of working
 *[Video coming soon...]*
 
-## Required Components
-| Name | Count | Description |
-|------|-------|-------------|
-| LED | 5 | Any color you like |
-| 10K Ohm resistor | 2 | You can use `INPUT_PULLUP` in code instead |
-| Jumper wires | 9+ | Male to male and male to female |
-| Breadboard | 2-3 | Mini, half or full size |
-| Buttons | 2 | For left and right movement |
-| ESP32 or Arduino | 1 | Any board with enough pins |
+| from | to | with |
+|------|----|------|
+| GND | LED GND pins | none |
+| 3V3 (or 5V) | button one pin | none |
+| GND | button two pin | 10K Ohm resistor |
+| GPIO 4 | button one other pin | none |
+| GPIO 16 | button two other pin | none |
+| GPIO 13 | LED 1 | resistor (optional) |
+| GPIO 12 | LED 2 | resistor (optional) |
+| GPIO 14 | LED 3 | resistor (optional) |
+| GPIO 27 | LED 4 | resistor (optional) |
+| GPIO 26 | LED 5 | resistor (optional) |
 
 ## Schematic
 ![schematic](images/P_20260221_014642.jpg)
