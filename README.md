@@ -7,3 +7,5 @@ img
 vid
 ## shematic
 ![she](images/P_20260221_014642.jpg)
+> [!WARNING]
+> این یه باکس اخطار رسمی تو گیت‌هابه
