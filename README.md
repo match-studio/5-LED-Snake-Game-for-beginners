@@ -7,6 +7,9 @@ A simple snack game that can be made with minimal equipment and is fun and cool.
 ![she](images/P_20260221_014850.jpg)
 ## video of working
 vid
+## requeded components
+| name | count | description|
+| ----- | ----- | --------- |
 ## shematic
 ![she](images/P_20260221_014642.jpg)
 > [!NOTE]
