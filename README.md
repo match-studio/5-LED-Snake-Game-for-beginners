@@ -2,7 +2,9 @@
 ## description
 A simple snack game that can be made with minimal equipment and is fun and cool. I made this for those who have limited equipment and supplies.
 ## photos of my robot
-img
+![she](images/P_20260221_014742.jpg)
+![she](images/P_20260221_014757.jpg)
+![she](images/P_20260221_014850.jpg)
 ## video of working
 vid
 ## shematic
