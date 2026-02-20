@@ -12,3 +12,7 @@ vid
 
 > [!WARNING]
 > im using low led power if you using high power please connect led pins with good resistors
+
+> [!TIP]
+> if you using esp32 or other board support PULL-UP built-in pin you can remove
+> 1k Ohm resistor and replace `INPUT` with `INPUT_PULLUP`
