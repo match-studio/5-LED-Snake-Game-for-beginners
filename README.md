@@ -46,6 +46,34 @@ A simple snake game that can be made with minimal equipment. It's fun and cool! 
 ## main code
 ```cpp
 ```
+## 🤝 Contributing
+
+You can help make this project better. Here are some ways to contribute:
+
+### 📝 Improve the documentation
+Fix spelling mistakes. Make instructions clearer. Translate to your language. Add more details about the circuit.
+
+### 🔧 Improve the hardware
+Make a better schematic. Design a PCB. Find cheaper components. Suggest better wiring.
+
+### 💻 Improve the code
+Add new features. Make the code faster. Add comments. Fix bugs. Make it work with more boards.
+
+### 📸 Share your build
+Take photos of your version. Record a video. Send them to me. Show how you built it differently.
+
+### 🐛 Report problems
+Tell me if something doesn't work. Let me know if instructions are confusing. Report bugs in the code.
+
+### 💡 Suggest new ideas
+Tell me what features you want. Suggest improvements. Ask questions.
+
+#### How to send your changes
+Fork this repository. Make your changes. Send a Pull Request. I will review and add it.
+
+Or message me directly with your ideas.
+
+You don't need to be an expert. Even testing and reporting helps.
 
 ## donate
 If you like this project and want to support me, I'm 13 years old and I make projects with limited equipment. Even a small donation helps me buy more parts.
