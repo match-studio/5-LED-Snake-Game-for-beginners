@@ -7,5 +7,7 @@ img
 vid
 ## shematic
 ![she](images/P_20260221_014642.jpg)
+> [!NOTE]
+> if you using arduino or other board works with 5V pins please change 3V3 to 5v
 > [!WARNING]
-> این یه باکس اخطار رسمی تو گیت‌هابه
+> im using low led power if you using high power please connect led pins with good resistors
