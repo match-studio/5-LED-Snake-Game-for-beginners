@@ -316,5 +316,5 @@ I have my own equipment and can make small to medium projects, but if you would 
 
 ### my bitcoin public key: 
 ```id
-0367fe4e52cec4fef59687718bbae91b4b4a23ac4871a362f1ed2dffd288890cad
+36jNkhUqS4d5tb8LwwbQ1N7yXnEK8tyW24
 ```
