@@ -64,7 +64,7 @@ This project proves that even with minimal equipment and at a young age, you can
 ![snake game 3](images/P_20260221_014850.jpg)
 
 ## Video of working
-[video of snake](images/V_20260221_125907.mp4)
+for view please click [here](images/V_20260221_125907.mp4)
 
 ## Connection
 | from | to | with |
