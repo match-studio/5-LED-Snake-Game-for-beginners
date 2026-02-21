@@ -281,6 +281,8 @@ I'm 13 years old and I wanted to show that you don't need expensive equipment to
 
 Still have questions? Open an issue in the repository or leave a comment. I'll answer as soon as possible.
 
+## Did you like this project?
+If it was useful to you, please give me a star so I can get energy for the next projects!
 ## 🤝 Contributing
 
 You can help make this project better. Here are some ways to contribute:
@@ -311,8 +313,6 @@ You don't need to be an expert. Even testing and reporting helps.
 ### You are free! You can do whatever you want with the project, sell it, and register it in your own name! My goal is just to help.
 ## donate
 I have my own equipment and can make small to medium projects, but if you would like me to make more modules and ICs and help my family with daily expenses, you can help through a cryptocurrency wallet. Unfortunately, github sponsors do not work for us, so I had to do this.
-
-
 
 ### my bitcoin public key: 
 ```id
