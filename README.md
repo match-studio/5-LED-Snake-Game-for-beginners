@@ -45,6 +45,140 @@ A simple snake game that can be made with minimal equipment. It's fun and cool! 
 
 ## main code
 ```cpp
+// Pin definitions for 5 LEDs
+const int ledPins[5] = {13, 12, 14, 27, 26};
+
+// Pin definitions for buttons
+const int rightPin = 4;   // Right button pin
+const int leftPin = 16;   // Left button pin
+
+// Game variables
+int playerPos = 2;        // Player starts at middle LED (index 2)
+int foodPos = 0;          // Food starts at position 0
+
+// Button state variables (for detecting button presses)
+bool lastRight = HIGH;    // Previous state of right button
+bool lastLeft = HIGH;     // Previous state of left button
+
+// Food blinking control
+unsigned long lastBlink = 0;  // Stores last time food blinked
+bool foodState = true;        // Current state of food LED (ON/OFF)
+
+// Setup function runs once when device starts
+void setup() {
+  // Set all LED pins as OUTPUT
+  for(int i = 0; i < 5; i++) {
+    pinMode(ledPins[i], OUTPUT);
+  }
+  
+  // Set button pins as INPUT
+  // Note: I'm using INPUT here instead of INPUT_PULLUP
+  // If you want to use internal pull-up resistors, change to INPUT_PULLUP
+  // With INPUT, you need external pull-up or pull-down resistors
+  pinMode(rightPin, INPUT);
+  pinMode(leftPin, INPUT);
+  
+  // Make sure food doesn't start at same position as player
+  if(foodPos == playerPos) {
+    foodPos = (playerPos + 2) % 5;  // Move food 2 positions ahead
+  }
+  
+  // Turn on LEDs based on initial positions
+  updateLEDs();
+}
+
+// Main loop runs continuously
+void loop() {
+  // ===== Food blinking control =====
+  // Check if 300ms has passed since last blink
+  if(millis() - lastBlink > 300) {
+    foodState = !foodState;        // Toggle food state (ON/OFF)
+    lastBlink = millis();          // Update last blink time
+    updateLEDs();                  // Update LEDs with new state
+  }
+  
+  // ===== Right button check =====
+  // Check if right button is pressed (LOW) and wasn't pressed before
+  if(digitalRead(rightPin) == LOW && lastRight == HIGH) {
+    // Prevent player from moving beyond last LED (position 4)
+    if(playerPos < 4) {  
+      playerPos++;                 // Move player right
+      checkFood();                 // Check if player reached food
+      updateLEDs();                // Update LED display
+    }
+    delay(200);                    // Debounce delay (prevents multiple readings)
+  }
+  
+  // ===== Left button check =====
+  // Check if left button is pressed (LOW) and wasn't pressed before
+  if(digitalRead(leftPin) == LOW && lastLeft == HIGH) {
+    // Prevent player from moving beyond first LED (position 0)
+    if(playerPos > 0) {  
+      playerPos--;                 // Move player left
+      checkFood();                 // Check if player reached food
+      updateLEDs();                // Update LED display
+    }
+    delay(200);                    // Debounce delay
+  }
+  
+  // Save current button states for next loop iteration
+  lastRight = digitalRead(rightPin);
+  lastLeft = digitalRead(leftPin);
+  
+  delay(10);                       // Small delay to reduce CPU usage
+}
+
+// Function to check if player reached the food
+void checkFood() {
+  // If player position matches food position
+  if(playerPos == foodPos) {
+    celebrate();                   // Play celebration animation
+    
+    // Generate new random food position
+    int newFood;
+    do {
+      newFood = random(0, 5);      // Random position between 0-4
+    } while(newFood == playerPos); // Make sure it's not where player is
+    
+    foodPos = newFood;              // Set new food position
+    
+    updateLEDs();                   // Update display
+  }
+}
+
+// Celebration animation when food is eaten
+void celebrate() {
+  // Blink all LEDs 3 times
+  for(int j = 0; j < 3; j++) {
+    // Turn all LEDs ON
+    for(int i = 0; i < 5; i++) {
+      digitalWrite(ledPins[i], HIGH);
+    }
+    delay(150);                     // Wait 150ms
+    
+    // Turn all LEDs OFF
+    for(int i = 0; i < 5; i++) {
+      digitalWrite(ledPins[i], LOW);
+    }
+    delay(150);                     // Wait 150ms
+  }
+}
+
+// Function to update all LEDs based on current game state
+void updateLEDs() {
+  // Turn all LEDs OFF first
+  for(int i = 0; i < 5; i++) {
+    digitalWrite(ledPins[i], LOW);
+  }
+  
+  // Turn ON the player LED (always ON)
+  digitalWrite(ledPins[playerPos], HIGH);
+  
+  // Turn ON the food LED only if foodState is true (blinking effect)
+  if(foodState) {
+    digitalWrite(ledPins[foodPos], HIGH);
+  }
+}
 ```
 ## 🤝 Contributing
 
