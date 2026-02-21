@@ -2,9 +2,8 @@
 
 ## Description
 
-This is a very simple snake game built with only 5 LEDs and 2 push buttons.
-
-I am 13 years old and I made this project to show that even with minimal equipment, anyone can create something fun and learn electronics. I started learning electronics a few months ago with almost nothing — just some old wires and a few LEDs I found. This project is the result of that journey.
+### This is a very simple snake game built with only 5 LEDs and 2 push buttons.
+** I am 13 ** years old and I made this project to show that even with minimal equipment, anyone can create something fun and learn electronics. I started learning electronics a few months ago with almost nothing — just some old wires and a few LEDs I found. This project is the result of that journey.
 
 The idea is to show that you can make a fun and playable game with almost nothing — just a few basic electronic components. No display, no screen, no complex parts, no expensive modules. Just simple LEDs, buttons, and wires.
 
@@ -21,7 +20,7 @@ How it works:
 
 Why I made this:
 
-I made this project for people who:
+### I made this project for people who:
 
 · Are beginners in electronics and don't know where to start
 · Don't have access to many components or can't afford expensive parts
@@ -30,7 +29,7 @@ I made this project for people who:
 · Are young and think they can't do big projects — yes you can!
 · Live in places where electronic parts are hard to find or expensive
 
-What makes it special:
+### What makes it special:
 
 · Only 5 LEDs and 2 buttons — that's it!
 · No LCD, no matrix, no complex wiring, no sensors
@@ -41,16 +40,6 @@ What makes it special:
 · The whole project costs less than $8 to build
 · You can build it in one evening
 · It's a real game — not just a blinking LED tutorial
-
-What I learned making this:
-
-· How to use buttons without delay
-· How to make LEDs blink at different rates
-· How to prevent the player from going outside the game area
-· How to make a simple game loop
-· How to write clean code that others can understand
-· How to share a project on GitHub
-· That you don't need much to create something fun
 
 My message to you:
 
