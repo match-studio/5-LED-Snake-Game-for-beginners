@@ -234,6 +234,7 @@ void updateLEDs() {
     digitalWrite(ledPins[foodPos], HIGH);
   }
 }
+```
 ## ❓ FAQ
 
 ### Can I use this project without resistors?
