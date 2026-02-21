@@ -82,7 +82,7 @@ for view please click [here](images/V_20260221_125907.mp4) and click `view raw`
 
 ## Schematic
 ![schematic](images/P_20260221_014642.jpg)
-
+![schematicSimple](images/circuit.png)
 > [!NOTE]
 > If you are using Arduino or other boards that work with 5V pins, please change 3.3V to 5V.
 
