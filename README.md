@@ -38,7 +38,7 @@ What makes it special:
 · Works with ESP32, Arduino, or any similar board
 · Full code is provided and explained
 · Made by a 13-year-old maker who had almost nothing when starting
-· The whole project costs less than $5 to build
+· The whole project costs less than $8 to build
 · You can build it in one evening
 · It's a real game — not just a blinking LED tutorial
 
