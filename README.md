@@ -234,6 +234,60 @@ void updateLEDs() {
     digitalWrite(ledPins[foodPos], HIGH);
   }
 }
+## ❓ FAQ
+
+### Can I use this project without resistors?
+Yes! If your board supports built-in pull-up resistors, you can simply change `INPUT` to `INPUT_PULLUP` in the code. This activates the internal resistors inside the chip, so you don't need external 10K resistors. This works on ESP32, Arduino (some pins), and many other boards.
+
+### What kind of board can I use?
+You can use almost any board! ESP32, Arduino Uno, Arduino Nano, ESP8266, STM32, and many more. Just make sure to check the pin numbers and voltage (3.3V or 5V) for your specific board.
+
+### Can I use more than 5 LEDs?
+Yes, you can expand the game. You'll need to add more LEDs to the circuit, increase the array size in the code, and update the game logic for more positions. But for beginners, 5 LEDs is a perfect start.
+
+### Can I change the game speed?
+Absolutely! Find this line in the code: `if(millis() - lastBlink > 300)`. Change the number 300 to make it faster (smaller number) or slower (bigger number). For example, 500 makes it slower, 150 makes it faster.
+
+### How do I know which LED is the player and which is food?
+The always-on LED is the player. The blinking LED is the food. This makes it easy to tell them apart even with just 5 LEDs.
+
+### The buttons are too sensitive. What should I do?
+The code already has a delay(200) after each button press to prevent multiple reads. If it's still too sensitive, you can increase this number to 250 or 300. If it's not sensitive enough, decrease it.
+
+### Can I add sound to this game?
+Yes! You can add a small buzzer to one of the GPIO pins. In the celebrate() function, add code to make a beep sound when food is eaten. You can also add sounds for button presses or game events.
+
+### My game doesn't work. What should I check first?
+Check all your wiring connections. Make sure LEDs are connected correctly (long leg to GPIO, short leg to GND). Verify buttons are wired properly. Check that you selected the right board in Arduino IDE. Make sure the code uploaded successfully. Open the Serial Monitor to see if there are any error messages.
+
+### Can I power this with a battery?
+Yes! You can use a 3.7V lithium battery, 9V battery with a regulator, or even USB power bank. Just make sure the voltage matches your board requirements.
+
+### Is this project good for learning programming?
+Definitely! This project teaches you how to read button inputs, control multiple LEDs, use millis() for timing without blocking the code, create game logic, debounce buttons, and organize your code with functions.
+
+### Can I share my version of this project?
+Yes, please do! The license is Creative Commons Zero, so you can use it anywhere, modify it, even claim it as your own. No need to mention me. But if you share, I'd love to see what you made.
+
+### How long does it take to build?
+If you have all the parts, you can build it in 30 minutes to 1 hour. Most of the time is spent on wiring and uploading the code. The rest is playing.
+
+### I'm a complete beginner. Can I really do this?
+Yes! This project was made specifically for beginners like you. Take it step by step. Gather all parts. Follow the connection table carefully. Copy the code exactly. Upload and test. If it doesn't work, check everything again. Ask for help if needed. You can do it.
+
+### Where can I get help if I'm stuck?
+Open an issue in this GitHub repository. Ask in electronics forums like Reddit (r/arduino, r/esp32). Watch YouTube tutorials for beginners. Ask a friend who knows electronics. Message me directly and I'll try to help.
+
+### Can I translate this project to my language?
+Yes, please do! If you translate the README or comments in the code, send it to me and I'll add it to the project. This helps more people around the world learn electronics.
+
+### What other projects can I try after this?
+After this project, you can try 10 LED snake game, adding a score counter with 7-segment display, making a buzzer sound when food is eaten, creating a two-player version, adding different levels of difficulty, or making it wireless with Bluetooth control.
+
+### Why did you make this project?
+I'm 13 years old and I wanted to show that you don't need expensive equipment to learn electronics and have fun. I started with almost nothing, and this project proves that anyone can create something cool with simple parts.
+
+Still have questions? Open an issue in the repository or leave a comment. I'll answer as soon as possible.
 ```
 ## 🤝 Contributing
 
