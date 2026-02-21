@@ -3,11 +3,12 @@
 ## Description
 
 ### This is a very simple snake game built with only 5 LEDs and 2 push buttons.
+#### subject
 ** I am 13 ** years old and I made this project to show that even with minimal equipment, anyone can create something fun and learn electronics. I started learning electronics a few months ago with almost nothing — just some old wires and a few LEDs I found. This project is the result of that journey.
 
 The idea is to show that you can make a fun and playable game with almost nothing — just a few basic electronic components. No display, no screen, no complex parts, no expensive modules. Just simple LEDs, buttons, and wires.
 
-How it works:
+### How it works:
 
 · Each LED represents a position in the game (like 5 cells in a row)
 · One LED is always ON → this is the player
@@ -41,13 +42,13 @@ Why I made this:
 · You can build it in one evening
 · It's a real game — not just a blinking LED tutorial
 
-My message to you:
+### My message to you:
 
 If you are reading this and thinking about starting electronics, just start. You don't need expensive kits or fancy tools. Use what you have. Ask questions. Fail many times. Get angry. Take a break. Try again. That's exactly what I did. This project failed many times before it worked. And now it's here for you to use, learn from, and maybe even improve.
 
 This project proves that even with minimal equipment and at a young age, you can create a real game and learn a lot about electronics and programming. If I can do it, you can do it too.
 
-## Photos of my robot
+## Photos of my project
 ![snake game 1](images/P_20260221_014742.jpg)
 ![snake game 2](images/P_20260221_014757.jpg)
 ![snake game 3](images/P_20260221_014850.jpg)
@@ -72,6 +73,7 @@ for view please click [here](images/V_20260221_125907.mp4) and click `view raw`
 ## Schematic
 ![schematic](images/P_20260221_014642.jpg)
 ![schematicSimple](images/circuit.png)
+`used resistor is 10K OHM`
 > [!NOTE]
 > If you are using Arduino or other boards that work with 5V pins, please change 3.3V to 5V.
 
@@ -305,13 +307,14 @@ Tell me what features you want. Suggest improvements. Ask questions.
 Fork this repository. Make your changes. Send a Pull Request. I will review and add it.
 Or message me directly with your ideas.
 You don't need to be an expert. Even testing and reporting helps.
-
+## license
+### You are free! You can do whatever you want with the project, sell it, and register it in your own name! My goal is just to help.
 ## donate
 I have my own equipment and can make small to medium projects, but if you would like me to make more modules and ICs and help my family with daily expenses, you can help through a cryptocurrency wallet. Unfortunately, github sponsors do not work for us, so I had to do this.
 
 
 
-my bitcoin public key: 
+### my bitcoin public key: 
 ```id
 0367fe4e52cec4fef59687718bbae91b4b4a23ac4871a362f1ed2dffd288890cad
 ```
