@@ -318,8 +318,7 @@ Or message me directly with your ideas.
 You don't need to be an expert. Even testing and reporting helps.
 
 ## donate
-If you like this project and want to support me, I'm 13 years old and I make projects with limited equipment. Even a small donation helps me buy more parts.
-Thank you.
+I have my own equipment and can make small to medium projects, but if you would like me to make more modules and ICs and help my family with daily expenses, you can help through a cryptocurrency wallet. Unfortunately, github sponsors do not work for us, so I had to do this.
 
 
 
