@@ -311,6 +311,13 @@ Or message me directly with your ideas.
 You don't need to be an expert. Even testing and reporting helps.
 ## license
 ### You are free! You can do whatever you want with the project, sell it, and register it in your own name! My goal is just to help.
+## CONTACT ME
+
+### **DISCUSSION (recommended):**  
+You can chat with me and others in the [Discussions](https://github.com/match-studio/5-LED-Snake-Game-for-beginners/discussions) tab!
+
+### **ISSUES:**  
+Found a bug? Report it in the [Issues](https://github.com/match-studio/5-LED-Snake-Game-for-beginners/issues) tab.
 ## donate
 I have my own equipment and can make small to medium projects, but if you would like me to make more modules and ICs and help my family with daily expenses, you can help through a cryptocurrency wallet. Unfortunately, github sponsors do not work for us, so I had to do this.
 
