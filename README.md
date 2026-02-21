@@ -235,7 +235,7 @@ void updateLEDs() {
   }
 }
 ```
-## ❓ FAQ
+## FAQ
 
 ### Can I use this project without resistors?
 Yes! If your board supports built-in pull-up resistors, you can simply change `INPUT` to `INPUT_PULLUP` in the code. This activates the internal resistors inside the chip, so you don't need external 10K resistors. This works on ESP32, Arduino (some pins), and many other boards.
@@ -289,7 +289,7 @@ After this project, you can try 10 LED snake game, adding a score counter with 7
 I'm 13 years old and I wanted to show that you don't need expensive equipment to learn electronics and have fun. I started with almost nothing, and this project proves that anyone can create something cool with simple parts.
 
 Still have questions? Open an issue in the repository or leave a comment. I'll answer as soon as possible.
-```
+
 ## 🤝 Contributing
 
 You can help make this project better. Here are some ways to contribute:
@@ -314,9 +314,7 @@ Tell me what features you want. Suggest improvements. Ask questions.
 
 #### How to send your changes
 Fork this repository. Make your changes. Send a Pull Request. I will review and add it.
-
 Or message me directly with your ideas.
-
 You don't need to be an expert. Even testing and reporting helps.
 
 ## donate
