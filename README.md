@@ -8,7 +8,9 @@ google-site-verification: googlecab8731eaa98e4db.html
 
 ## Video of working
 for view please click [here](images/V_20260221_125907.mp4) and click `view raw`
-
+## software
+This project is based on Arduino. 
+please install Arduino App From [here](https://github.com/arduino/arduino-ide/releases) or install [platformio](https://github.com/platformio/platformio-vscode-ide/releases) on [vscode](https://code.visualstudio.com/download)
 ## Prerequisites
 | component | Amount required |
 |-----------|-----------------|
