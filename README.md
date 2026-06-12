@@ -10,7 +10,14 @@ google-site-verification: googlecab8731eaa98e4db.html
 for view please click [here](images/V_20260221_125907.mp4) and click `view raw`
 
 ## Prerequisites
-
+| component | Amount required |
+|-----------|-----------------|
+|led|5|
+|breadboard|1-2|
+|jumper wire or bone wire|15+|
+|buttons|x2|
+|resistor 10K|x2|
+|resistor 400H|x5|
 ## Connection
 | from | to | with |
 |------|----|------|
