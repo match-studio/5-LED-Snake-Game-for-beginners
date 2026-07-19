@@ -287,5 +287,7 @@ I have my own equipment and can make small to medium projects, but if you would 
 
 ### my bitcoin public key: 
 ```id
-36jNkhUqS4d5tb8LwwbQ1N7yXnEK8tyW24
+36j##########b8Lwwb####yXn#####W24
+MY BITCOIN PUBLIC KEY IS NOT SOURCE, IM CREATED IN BTC-WALL.COM AND THIS SITE IS NOT SOURCE
+FOR SUPPORTING, PLEASE WAIT...
 ```
